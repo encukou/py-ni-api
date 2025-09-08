@@ -1,0 +1,1 @@
+git entr -ccs "(python -m generate > PyAPI.h) && git diff PyAPI.h && (hr; gcc --shared PyAPI.h)"
